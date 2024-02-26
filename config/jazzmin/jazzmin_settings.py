@@ -65,8 +65,10 @@ JAZZMIN_SETTINGS = {
         "auth": "fas fa-users-cog",
         "app_users.CustomUser": "fas fa-user",
         "app_reviews.Review": "fas fa-comment",
+        "app_info.Info": "fas fa-address-book",
 
         "app_gallery.Gallery": "fas fa-images",
+        "app_baner.Baner": "fas fa-images",
     },
     # Icons that are used when one is not manually specified
     "default_icon_parents": "fas fa-chevron-circle-right",

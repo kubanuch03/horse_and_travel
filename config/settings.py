@@ -51,6 +51,8 @@ INSTALLED_APPS = [
     "app_users",
     "app_gallery",
     "app_reviews",
+    "app_baner",
+    "app_info",
 ]
 
 MIDDLEWARE = [

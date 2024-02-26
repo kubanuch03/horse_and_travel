@@ -13,4 +13,5 @@ class ReviewSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Review
-        fields = ["id", "user", "text_review","user_name","image","stars", "created_at"]
+        fields = ["id", "user", "text_review","user_name","image", "created_at"]
+        exlude = ['stars']

@@ -29,6 +29,8 @@ urlpatterns = [
     path("users/", include("app_users.urls")),
     path("gallerys/", include("app_gallery.urls")),
     path("reviews/", include("app_reviews.urls")),
+    path("baner/", include("app_baner.urls")),
+    path("info/", include("app_info.urls")),
 
 
     # swagger
