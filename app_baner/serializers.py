@@ -7,4 +7,4 @@ class BanerSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Baner
-        filelds = ['image']
+        fields = ['image']
